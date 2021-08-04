@@ -13,7 +13,7 @@
 
 body {
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
 }
 
@@ -50,5 +50,50 @@ header nav a:hover{
     
     height: 400px;
     background-size: cover; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
+.filme-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.titulo {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0, 0, 1, 0.514);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    transition: 0.3s ease all;
+}
+
+.botao:hover{
+    background-color: rgb(189, 188, 188);
+    color: black;
+
+}
+
+.botao i {
+    margin-right: 5px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 60%;
+}
