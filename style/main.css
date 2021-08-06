@@ -1,6 +1,6 @@
 :root{
     --vermelho: #E50914;
-    --preta: #141414; 
+    --preta: #221f1f; 
 }
 
 * {
@@ -25,10 +25,7 @@ header .container {
 }
 
 header .logo {
-    margin-left: 5px;
-    color: var(--vermelho);
-    font-family: 'Arial Black', Times;
-    font-size: 40px;
+    max-width: 120px;
 }
 
 header nav a {
@@ -46,9 +43,9 @@ header nav a:hover{
 .filme-principal {
     font-size: 16px;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/vikings.jpg');
+    background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/homem-aranha.jpg');
     
-    height: 400px;
+    height: 500px;
     background-size: cover; 
 
     display: flex;
@@ -102,4 +99,12 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 10px;
+}
+
+img:hover{
+    transform: scale(1.25,1.25);
 }
